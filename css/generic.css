@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+html {
+  --primary-color: #212121;
+  --primary-color-darker: #151515;
+  --primary-color-darkest: #111111;
+  --secondary-color: #f1e7dc;
+  --tertiary-color: #c9b9ae;
+  --accent-one-color: #84c4c0;
+  --accent-two-color: #b85493;
+}
+
+body {
+  background-color: #212121;
+  accent-color: var(--accent-one-color);
+}
+
+/* -------- FONT STUFF -------- */
+
+/* font colors */
+h1,
+h2,
+h3,
+h4,
+p {
+  color: var(--secondary-color);
+}
+
+p.small {
+  color: var(--tertiary-color);
+}
+
+/* font families */
+h1,
+h2 {
+  font-family: "Italiana", serif;
+}
+
+h3,
+h4,
+p {
+  font-family: "Lato", sans-serif;
+}
+
+/* bold */
+h3,
+h4 {
+  font-weight: bold;
+}
+
+/* font-sizes */
+h1 {
+  font-size: 5.6rem;
+}
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.3rem;
+}
+
+p.small {
+  font-size: 1rem;
+}
+
+/* font margins */
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 0.5rem;
+}
+p {
+  margin-bottom: 1.5rem;
+}
+
+/* line-height */
+p {
+  line-height: 1.75;
+}
+/* -------- Font stuff **END** -------- */
+
+/* footer */
+
+/* footer {
+  background-color: var(--primary-color-darkest);
+  height: 3rem;
+} */
