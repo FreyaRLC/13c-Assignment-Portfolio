@@ -1,0 +1,133 @@
+html {
+  font-size: 12px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+/* --- BUTTON --- */
+.fake-btn {
+  display: flex;
+  height: 40px;
+  background-color: var(--primary-color-darker);
+  width: fit-content;
+  justify-content: space-between;
+  text-decoration: none;
+  align-self: end;
+  padding-left: 2rem;
+}
+
+.chevron-container {
+  width: 25%;
+  padding: 9px;
+  text-align: center;
+  background-color: var(--accent-one-color);
+}
+
+.fake-btn p {
+  margin: 0;
+  /* padding: 20px; */
+  line-height: 0;
+  align-self: center;
+}
+
+/* ---- */
+
+.helper-container {
+  padding: 1.7rem;
+  display: grid;
+  grid-auto-rows: minmax(100px, auto);
+  z-index: 2;
+}
+
+.image-wrapper {
+  height: 270px;
+}
+
+.image-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  filter: brightness(70%);
+  z-index: 1;
+}
+
+h1 {
+  font-size: 4rem !important;
+  margin-bottom: 1.7rem !important;
+}
+
+.graphic-plate {
+  display: none;
+}
+
+@media (min-width: 570px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr 0.2fr;
+    grid-template-rows: 100px auto 200px;
+  }
+  h1 {
+    font-size: 4.6rem !important;
+  }
+  .image-wrapper {
+    border-radius: 0 0 10px 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 1/4;
+  }
+
+  .helper-container {
+    grid-column: 2/-2;
+    grid-row: 2/3;
+  }
+  .helper-container p,
+  h1 {
+    text-shadow: -1px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (min-width: 865px) {
+  html {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 5.6rem !important;
+  }
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px auto 200px;
+  }
+  .image-wrapper {
+    grid-column: 2/3;
+    grid-row: 1/-1;
+  }
+  .helper-container {
+    grid-column: 1/4;
+    grid-template-columns: 2fr repeat(2, minmax(auto, 450px)) 0fr;
+    gap: 1.7rem;
+  }
+  .helper-container h1 {
+    grid-column: 2/3;
+  }
+  .helper-container p {
+    grid-column: 3/4;
+  }
+  .fake-btn {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  .graphic-plate {
+    display: block;
+    background-color: var(--primary-color-darker);
+    grid-column: 1/2;
+    grid-row: 1/-1;
+  }
+  .image-wrapper img {
+    object-position: 10% 50%;
+  }
+}

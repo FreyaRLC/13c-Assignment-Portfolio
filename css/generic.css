@@ -13,7 +13,7 @@ html {
   --primary-color-darkest: #111111;
   --secondary-color: #f1e7dc;
   --tertiary-color: #bfab9f;
-  --accent-one-color: #84c4c0;
+  --accent-one-color: #6aa09d;
   --accent-two-color: #b85493;
 }
 
@@ -45,7 +45,8 @@ h2 {
 
 h3,
 h4,
-p {
+p,
+a {
   font-family: "Lato", sans-serif;
 }
 
