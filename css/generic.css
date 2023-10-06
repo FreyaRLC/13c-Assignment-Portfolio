@@ -9,6 +9,7 @@ img {
 
 html {
   --primary-color: #212121;
+  --primary-color-dark: #1a1a1a;
   --primary-color-darker: #151515;
   --primary-color-darkest: #111111;
   --secondary-color: #f1e7dc;
