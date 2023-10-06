@@ -2,10 +2,10 @@ html {
   font-size: 14px;
 }
 body {
-  padding: 1.7rem;
 }
 
 main {
+  padding: 1.7rem;
   display: flex;
   flex-direction: column;
   gap: 1.7rem;
