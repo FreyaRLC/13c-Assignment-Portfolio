@@ -1,8 +1,5 @@
-body {
-  padding: 2rem;
-}
-
 main {
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -86,7 +83,7 @@ h3 {
 }
 
 label {
-  color: var(--tertiary-color);
+  color: var(--secondary-color-dark);
 }
 .custom-radio:checked + label {
   color: var(--secondary-color);

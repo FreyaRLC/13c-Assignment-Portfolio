@@ -13,7 +13,7 @@ html {
   --primary-color-darker: #151515;
   --primary-color-darkest: #111111;
   --secondary-color: #f1e7dc;
-  --tertiary-color: #bfab9f;
+  --secondary-color-dark: #bfab9f;
   --accent-one-color: #6aa09d;
   --accent-two-color: #b85493;
 }
@@ -23,6 +23,15 @@ body {
   accent-color: var(--accent-one-color);
 }
 
+header {
+  margin-bottom: 1rem;
+  padding: 1.7rem;
+  background-color: var(--primary-color-darker);
+  border-bottom: 10px solid var(--primary-color-darkest);
+}
+header p {
+  max-width: 900px;
+}
 /* -------- FONT STUFF -------- */
 
 /* font colors */
@@ -35,7 +44,7 @@ p {
 }
 
 p.small {
-  color: var(--tertiary-color);
+  color: var(--secondary-color-dark);
 }
 
 /* font families */
@@ -97,10 +106,3 @@ p {
   line-height: 1.75;
 }
 /* -------- Font stuff **END** -------- */
-
-/* footer */
-
-/* footer {
-  background-color: var(--primary-color-darkest);
-  height: 3rem;
-} */
