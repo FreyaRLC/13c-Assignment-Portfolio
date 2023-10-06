@@ -9,7 +9,7 @@ h4 {
   font-weight: normal !important;
 }
 
-/* -- FONTS END -- */
+/* --- */
 
 main {
   padding: 1rem;
@@ -131,7 +131,6 @@ main {
   #card {
     overflow: visible;
     margin: 2rem;
-    /* padding: 0; */
   }
   .portrait {
     margin-left: -40px !important;
